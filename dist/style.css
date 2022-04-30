@@ -1,0 +1,93 @@
+/*Header*/
+.header{
+    width: 30vw;
+    height: 5vh;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    background-color: rgb(245, 196, 35);
+
+}
+
+.header > button{
+    width: 8vw;
+    margin-top: 0.8rem;
+    border: 2px solid black;
+    border-radius: 10px 10px 0 0;
+    background-color: rgb(245, 196, 35);
+    border-bottom: none;
+}
+
+.header-container{
+    background-color: rgb(245, 196, 35);
+}
+
+
+/*Body*/
+body{
+    background-image: url("../src/images/bck-image.jpg");
+    height: 100vh;
+}
+
+/*Home tab*/
+.home-content{
+    width: 50vw;
+    background-color:  rgb(245, 196, 35);
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+.home-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 0.3rem black;
+    background-color: yellow;
+    border-radius: 40%;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    padding: 6vw;
+}
+
+.paragraph-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5vh 10vw;
+    border: solid 0.3rem black;
+    padding: 5%;
+    border-radius: 20%;
+    background-color: yellow;
+}
+
+.home-tab-bottom{
+    margin-right: 15vw;
+}
+
+/*Menu tab*/
+
+.paragraph-container > h2{
+    margin-right: 15vw;
+}
+
+.paragraph-container > p{
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.paragraph-container > div, .info{
+    margin-right: auto;
+}
+
+.paragraph-container > img{
+    margin-left:auto;
+}
+
+.paragraph-container > .info{
+    margin-right: 20vw;
+}
