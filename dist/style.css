@@ -91,3 +91,7 @@ body{
 .paragraph-container > .info{
     margin-right: 20vw;
 }
+
+.mealImages{
+    width: 20vw;
+}

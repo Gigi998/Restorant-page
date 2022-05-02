@@ -30,6 +30,7 @@ export const menuTab = (() => {
 
         const meal1Image = document.createElement("img");
         meal1Image.src = "../src/images/toast_jam.jpeg";
+        meal1Image.classList.add("mealImages")
         meal1.appendChild(meal1Image);
 
         //Second dish
@@ -51,6 +52,7 @@ export const menuTab = (() => {
 
         const meal2Image = document.createElement("img");
         meal2Image.src = "../src/images/pancakes.jpeg";
+        meal2Image.classList.add("mealImages");
         meal2.appendChild(meal2Image);
 
         //Third dist
@@ -72,6 +74,7 @@ export const menuTab = (() => {
 
         const meal3Image = document.createElement("img");
         meal3Image.src = "../src/images/lox.jpeg";
+        meal3Image.classList.add("mealImages");
         meal3.appendChild(meal3Image);
     }
 
